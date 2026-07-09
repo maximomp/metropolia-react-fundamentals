@@ -7,3 +7,7 @@ Metropolia - Fundamentals of React.js Projects
 # assignment 1
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-1
+
+# assignment 2
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-2
