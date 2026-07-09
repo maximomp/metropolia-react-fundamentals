@@ -18,6 +18,8 @@
 
 import React from "react";
 
+// THIS IS A APP:JSX FILE REPLACE IN MY-REACT-APP/SRC/APP.JSX FOR TEST
+
 function App() {
   const calculate = (a, b) => {
     const add = a + b;
