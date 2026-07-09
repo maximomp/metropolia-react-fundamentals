@@ -83,4 +83,8 @@ React Basics Foundations assignments are integrated inside the React app at:
 
 ### Assignment 1
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment1
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment1
+
+### Assignment 2
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment2
