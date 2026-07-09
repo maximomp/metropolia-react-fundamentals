@@ -2,24 +2,75 @@
 
 Metropolia - Fundamentals of React.js Projects
 
-# javascript foundations
+## JavaScript Foundations
 
-# assignment 1
+JavaScript Foundations assignments are integrated inside the React app at:
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-1
+- my-react-app/src/assignments/javaScriptFoundations
 
-# assignment 2
+## Requirements
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-2
+- Node.js LTS
+- npm
 
-# assignment 3
+If you use nvm:
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-3
+```bash
+nvm use --lts
+```
 
-# assignment 4
+## Start the app
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-4
+From the app folder:
 
-# assignment 5
+```bash
+cd my-react-app
+npm install
+npm run dev
+```
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-5
+Then open in your browser:
+
+- http://localhost:5173/
+
+## View the assignment list
+
+- The assignment list is shown on the main URL http://localhost:5173/.
+- Click each link to open its view.
+
+Currently configured routes:
+
+- http://localhost:5173/assignment1
+- http://localhost:5173/assignment2
+- http://localhost:5173/assignment3
+- http://localhost:5173/assignment4
+- http://localhost:5173/assignment5
+- http://localhost:5173/assignment6
+
+These routes are defined in:
+
+- my-react-app/src/App.jsx
+
+### Assignment 1
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment1
+
+### Assignment 2
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment2
+
+### Assignment 3
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment3
+
+### Assignment 4
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment4
+
+### Assignment 5
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment5
+
+### Assignment 6
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment6
