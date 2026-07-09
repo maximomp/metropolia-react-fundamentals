@@ -11,3 +11,7 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-f
 # assignment 2
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-2
+
+# assignment 3
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/javaScript-foundations/assignment-3
