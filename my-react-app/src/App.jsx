@@ -6,6 +6,8 @@ import Assignment4App from "./assignments/javaScriptFoundations/assignment4/App.
 import Assignment3App from "./assignments/javaScriptFoundations/assignment3/App.jsx";
 import Assignment2App from "./assignments/javaScriptFoundations/assignment2/App.jsx";
 import Assignment1App from "./assignments/javaScriptFoundations/assignment1/App.jsx";
+// Import React Basics assignments
+import ReactBasicsAssignment1App from "./assignments/reactBasics/assignment1/App.jsx";
 const JSassignments = [
   {
     id: 1,
@@ -45,12 +47,36 @@ const JSassignments = [
   },
 ];
 
+const ReactBasicsAssignments = [
+  {
+    id: 1,
+    name: "Assignment 1",
+    path: "/react-basics/assignment1",
+    component: ReactBasicsAssignment1App,
+  },
+];
+
 function JSAssignmentsList() {
   return (
     <div style={{ padding: 20 }}>
       <h2>JavaScript Foundations Assignments</h2>
       <ul>
         {JSassignments.map((assignment) => (
+          <li key={assignment.id}>
+            <Link to={assignment.path}>{assignment.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function ReactBasicsAssignmentsList() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>React Basics Assignments</h2>
+      <ul>
+        {ReactBasicsAssignments.map((assignment) => (
           <li key={assignment.id}>
             <Link to={assignment.path}>{assignment.name}</Link>
           </li>
@@ -66,6 +92,7 @@ function Home() {
       <div style={{ padding: 20 }}>
         <h2>Assignments</h2>
         <JSAssignmentsList />
+        <ReactBasicsAssignmentsList />
       </div>
     </>
   );
@@ -78,6 +105,13 @@ function App() {
         <Route path="/" element={<Home />} />
 
         {JSassignments.map((assignment) => (
+          <Route
+            key={assignment.id}
+            path={assignment.path}
+            element={<assignment.component />}
+          />
+        ))}
+        {ReactBasicsAssignments.map((assignment) => (
           <Route
             key={assignment.id}
             path={assignment.path}

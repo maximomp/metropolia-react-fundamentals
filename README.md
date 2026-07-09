@@ -2,12 +2,6 @@
 
 Metropolia - Fundamentals of React.js Projects
 
-## JavaScript Foundations
-
-JavaScript Foundations assignments are integrated inside the React app at:
-
-- my-react-app/src/assignments/javaScriptFoundations
-
 ## Requirements
 
 - Node.js LTS
@@ -51,6 +45,12 @@ These routes are defined in:
 
 - my-react-app/src/App.jsx
 
+## JavaScript Foundations
+
+JavaScript Foundations assignments are integrated inside the React app at:
+
+- my-react-app/src/assignments/javaScriptFoundations
+
 ### Assignment 1
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment1
@@ -74,3 +74,13 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 6
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment6
+
+## React Basics
+
+React Basics Foundations assignments are integrated inside the React app at:
+
+- my-react-app/src/assignments/reactBasics
+
+### Assignment 1
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/javaScriptFoundations/assignment1

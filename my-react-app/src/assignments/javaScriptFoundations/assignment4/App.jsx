@@ -27,7 +27,14 @@ function App() {
 
   console.log(capitalized); // ['Alice', 'Bob', 'Carol']
 
-  return <></>;
+  return (
+    <>
+      {" "}
+      <p style={{ color: "gray", fontSize: "14px" }}>
+        Open the browser console (F12) to view the filtered array structure.
+      </p>
+    </>
+  );
 }
 
 export default App;
