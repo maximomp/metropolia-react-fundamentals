@@ -1,3 +1,21 @@
+// Use array destructuring to print out a simple calculating between two numbers.
+
+// Add this function to App.js:
+
+// const calculate = (a, b) => {
+
+//     /* Your code here */
+
+//     return [add, subtract, multiply, divide];
+
+// }
+
+// const [add, subtract, multiply, divide] = calculate(6, 8);
+
+// Now print on the screen "6 * 8 = 24" using destructured array.
+
+// Return screenshot from browser and copy of code from App.js
+
 import React from "react";
 
 function App() {
