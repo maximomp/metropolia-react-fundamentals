@@ -13,6 +13,8 @@ import ReactBasicsAssignment3App from "./assignments/reactBasics/assignment3/App
 import ReactBasicsAssignment4App from "./assignments/reactBasics/assignment4/Index";
 import ReactBasicsAssignment5App from "./assignments/reactBasics/assignment5/Index";
 import ReactBasicsAssignment6App from "./assignments/reactBasics/assignment6/Index";
+// Import React Hooks assignments
+import ReactHooksAssignment1App from "./assignments/reactHooks/assignment1/Index";
 
 const JSassignments = [
   {
@@ -92,6 +94,15 @@ const ReactBasicsAssignments = [
   },
 ];
 
+const ReactHooksAssignments = [
+  {
+    id: 1,
+    name: "Assignment 1",
+    path: "/react-hooks/assignment1",
+    component: ReactHooksAssignment1App,
+  },
+];
+
 function JSAssignmentsList() {
   return (
     <div style={{ padding: 20 }}>
@@ -121,6 +132,21 @@ function ReactBasicsAssignmentsList() {
     </div>
   );
 }
+
+function ReactHooksAssignmentsList() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>React Hooks Assignments</h2>
+      <ul>
+        {ReactHooksAssignments.map((assignment) => (
+          <li key={assignment.id}>
+            <Link to={assignment.path}>{assignment.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 function Home() {
   return (
     <>
@@ -129,6 +155,7 @@ function Home() {
         <h2>Assignments</h2>
         <JSAssignmentsList />
         <ReactBasicsAssignmentsList />
+        <ReactHooksAssignmentsList />
       </div>
     </>
   );
@@ -148,6 +175,13 @@ function App() {
           />
         ))}
         {ReactBasicsAssignments.map((assignment) => (
+          <Route
+            key={assignment.id}
+            path={assignment.path}
+            element={<assignment.component />}
+          />
+        ))}
+        {ReactHooksAssignments.map((assignment) => (
           <Route
             key={assignment.id}
             path={assignment.path}
