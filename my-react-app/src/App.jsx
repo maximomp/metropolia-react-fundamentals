@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Assignment6App from "./assignments/javaScriptFoundations/assignment6/App.jsx";
-import Assignment5App from "./assignments/javaScriptFoundations/assignment5/App.jsx";
-import Assignment4App from "./assignments/javaScriptFoundations/assignment4/App.jsx";
-import Assignment3App from "./assignments/javaScriptFoundations/assignment3/App.jsx";
-import Assignment2App from "./assignments/javaScriptFoundations/assignment2/App.jsx";
-import Assignment1App from "./assignments/javaScriptFoundations/assignment1/App.jsx";
+import Assignment6App from "./assignments/javaScriptFoundations/assignment6/App";
+import Assignment5App from "./assignments/javaScriptFoundations/assignment5/App";
+import Assignment4App from "./assignments/javaScriptFoundations/assignment4/App";
+import Assignment3App from "./assignments/javaScriptFoundations/assignment3/App";
+import Assignment2App from "./assignments/javaScriptFoundations/assignment2/App";
+import Assignment1App from "./assignments/javaScriptFoundations/assignment1/App";
 // Import React Basics assignments
-import ReactBasicsAssignment1App from "./assignments/reactBasics/assignment1/App.jsx";
-import ReactBasicsAssignment2App from "./assignments/reactBasics/assignment2/App.jsx";
+import ReactBasicsAssignment1App from "./assignments/reactBasics/assignment1/App";
+import ReactBasicsAssignment2App from "./assignments/reactBasics/assignment2/App";
+import ReactBasicsAssignment3App from "./assignments/reactBasics/assignment3/App";
 const JSassignments = [
   {
     id: 1,
@@ -60,6 +61,12 @@ const ReactBasicsAssignments = [
     name: "Assignment 2",
     path: "/react-basics/assignment2",
     component: ReactBasicsAssignment2App,
+  },
+  {
+    id: 3,
+    name: "Assignment 3",
+    path: "/react-basics/assignment3",
+    component: ReactBasicsAssignment3App,
   },
 ];
 

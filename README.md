@@ -88,3 +88,7 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 2
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment2
+
+### Assignment 2
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment3
