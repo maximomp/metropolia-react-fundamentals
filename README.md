@@ -52,6 +52,10 @@ React basics
 - http://localhost:5173/react-basics/assignment5
 - http://localhost:5173/react-basics/assignment6
 
+React Hooks
+
+- http://localhost:5173/react-hooks/assignment1
+
 These routes are defined in:
 
 - my-react-app/src/App.jsx
@@ -88,7 +92,7 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 
 ## React Basics
 
-React Basics Foundations assignments are integrated inside the React app at:
+React Basics assignments are integrated inside the React app at:
 
 - my-react-app/src/assignments/reactBasics
 
@@ -115,3 +119,13 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 6
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment6
+
+## React Hooks
+
+React Hooks assignments are integrated inside the React app at:
+
+- my-react-app/src/assignments/reactHooks
+
+### Assignment 1
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment1
