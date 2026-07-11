@@ -36,12 +36,12 @@ Currently configured routes:
 
 Javascript Foundations
 
-- http://localhost:5173/assignment1
-- http://localhost:5173/assignment2
-- http://localhost:5173/assignment3
-- http://localhost:5173/assignment4
-- http://localhost:5173/assignment5
-- http://localhost:5173/assignment6
+- http://localhost:5173/javaScript-foundations/assignment1
+- http://localhost:5173/javaScript-foundations/assignment2
+- http://localhost:5173/javaScript-foundations/assignment3
+- http://localhost:5173/javaScript-foundations/assignment4
+- http://localhost:5173/javaScript-foundations/assignment5
+- http://localhost:5173/javaScript-foundations/assignment6
 
 React basics
 

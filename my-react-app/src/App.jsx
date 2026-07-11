@@ -14,37 +14,37 @@ const JSassignments = [
   {
     id: 1,
     name: "Assignment 1",
-    path: "/assignment1",
+    path: "/javaScript-foundations/assignment1",
     component: Assignment1App,
   },
   {
     id: 2,
     name: "Assignment 2",
-    path: "/assignment2",
+    path: "/javaScript-foundations/assignment2",
     component: Assignment2App,
   },
   {
     id: 3,
     name: "Assignment 3",
-    path: "/assignment3",
+    path: "/javaScript-foundations/assignment3",
     component: Assignment3App,
   },
   {
     id: 4,
     name: "Assignment 4",
-    path: "/assignment4",
+    path: "/javaScript-foundations/assignment4",
     component: Assignment4App,
   },
   {
     id: 5,
     name: "Assignment 5",
-    path: "/assignment5",
+    path: "/javaScript-foundations/assignment5",
     component: Assignment5App,
   },
   {
     id: 6,
     name: "Assignment 6",
-    path: "/assignment6",
+    path: "/javaScript-foundations/assignment6",
     component: Assignment6App,
   },
 ];
