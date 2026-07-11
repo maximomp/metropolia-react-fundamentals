@@ -49,6 +49,7 @@ React basics
 - http://localhost:5173/react-basics/assignment2
 - http://localhost:5173/react-basics/assignment3
 - http://localhost:5173/react-basics/assignment4
+- http://localhost:5173/react-basics/assignment5
 
 These routes are defined in:
 
@@ -105,3 +106,7 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 4
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment4
+
+### Assignment 5
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactBasics/assignment5

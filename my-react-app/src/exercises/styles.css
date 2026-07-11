@@ -1,3 +1,4 @@
+/* Styles for the toggle button */
 .toggle-btn {
   padding: 12px 24px;
   border: none;
@@ -22,4 +23,51 @@
 
 .toggle-off {
   background-color: #dc2626;
+}
+
+/* Styles for the input form */
+.name-form {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-input {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  min-width: 220px;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.name-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+
+.name-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.name-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.name-btn:active {
+  transform: scale(0.98);
 }
