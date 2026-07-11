@@ -34,12 +34,20 @@ Then open in your browser:
 
 Currently configured routes:
 
+Javascript Foundations
+
 - http://localhost:5173/assignment1
 - http://localhost:5173/assignment2
 - http://localhost:5173/assignment3
 - http://localhost:5173/assignment4
 - http://localhost:5173/assignment5
 - http://localhost:5173/assignment6
+
+React basics
+
+- http://localhost:5173/react-basics/assignment1
+- http://localhost:5173/react-basics/assignment2
+- http://localhost:5173/react-basics/assignment3
 
 These routes are defined in:
 
