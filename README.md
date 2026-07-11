@@ -48,6 +48,7 @@ React basics
 - http://localhost:5173/react-basics/assignment1
 - http://localhost:5173/react-basics/assignment2
 - http://localhost:5173/react-basics/assignment3
+- http://localhost:5173/react-basics/assignment4
 
 These routes are defined in:
 

@@ -10,6 +10,8 @@ import Assignment1App from "./assignments/javaScriptFoundations/assignment1/App"
 import ReactBasicsAssignment1App from "./assignments/reactBasics/assignment1/App";
 import ReactBasicsAssignment2App from "./assignments/reactBasics/assignment2/App";
 import ReactBasicsAssignment3App from "./assignments/reactBasics/assignment3/App";
+import ReactBasicsAssignment4App from "./assignments/reactBasics/assignment4/Index";
+
 const JSassignments = [
   {
     id: 1,
@@ -67,6 +69,12 @@ const ReactBasicsAssignments = [
     name: "Assignment 3",
     path: "/react-basics/assignment3",
     component: ReactBasicsAssignment3App,
+  },
+  {
+    id: 4,
+    name: "Assignment 4",
+    path: "/react-basics/assignment4",
+    component: ReactBasicsAssignment4App,
   },
 ];
 
