@@ -57,6 +57,7 @@ React Hooks
 - http://localhost:5173/react-hooks/assignment1
 - http://localhost:5173/react-hooks/assignment2
 - http://localhost:5173/react-hooks/assignment3
+- http://localhost:5173/react-hooks/assignment4
 
 These routes are defined in:
 
@@ -139,3 +140,7 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 3
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment3
+
+### Assignment 4
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment4

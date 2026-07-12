@@ -17,6 +17,7 @@ import ReactBasicsAssignment6App from "./assignments/reactBasics/assignment6/Ind
 import ReactHooksAssignment1App from "./assignments/reactHooks/assignment1/Index";
 import ReactHooksAssignment2App from "./assignments/reactHooks/assignment2/Index";
 import ReactHooksAssignment3App from "./assignments/reactHooks/assignment3/App";
+import ReactHooksAssignment4App from "./assignments/reactHooks/assignment4/App";
 
 const JSassignments = [
   {
@@ -114,6 +115,12 @@ const ReactHooksAssignments = [
     name: "Assignment 3",
     path: "/react-hooks/assignment3",
     component: ReactHooksAssignment3App,
+  },
+  {
+    id: 4,
+    name: "Assignment 4",
+    path: "/react-hooks/assignment4",
+    component: ReactHooksAssignment4App,
   },
 ];
 
