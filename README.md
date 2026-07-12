@@ -55,6 +55,7 @@ React basics
 React Hooks
 
 - http://localhost:5173/react-hooks/assignment1
+- http://localhost:5173/react-hooks/assignment2
 
 These routes are defined in:
 
@@ -129,3 +130,7 @@ React Hooks assignments are integrated inside the React app at:
 ### Assignment 1
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment1
+
+### Assignment 2
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment2
