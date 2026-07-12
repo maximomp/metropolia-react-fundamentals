@@ -61,8 +61,8 @@ React Hooks
 
 Component architecture
 
-- http://localhost:5173//component-architecture/assignment1
-- http://localhost:5173//component-architecture/assignment2
+- http://localhost:5173/component-architecture/assignment1
+- http://localhost:5173/component-architecture/assignment2
 
 These routes are defined in:
 
