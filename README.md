@@ -138,4 +138,4 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 
 ### Assignment 3
 
-https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment2
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/reactHooks/assignment3
