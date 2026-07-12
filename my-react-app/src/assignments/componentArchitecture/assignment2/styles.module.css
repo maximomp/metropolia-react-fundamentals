@@ -1,4 +1,4 @@
-.login-btn {
+.loginBtn {
   border: none;
   border-radius: 8px;
   padding: 10px 16px;
@@ -8,6 +8,6 @@
   cursor: pointer;
 }
 
-.login-btn:hover {
+.loginBtn:hover {
   background: #1d4ed8;
 }
