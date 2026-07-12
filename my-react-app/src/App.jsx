@@ -18,6 +18,9 @@ import ReactHooksAssignment1App from "./assignments/reactHooks/assignment1/Index
 import ReactHooksAssignment2App from "./assignments/reactHooks/assignment2/Index";
 import ReactHooksAssignment3App from "./assignments/reactHooks/assignment3/App";
 import ReactHooksAssignment4App from "./assignments/reactHooks/assignment4/App";
+// Import Component Architecture assignments
+import ComponentArchitectureAssignment1App from "./assignments/componentArchitecture/assignment1/App";
+import ComponentArchitectureAssignment2App from "./assignments/componentArchitecture/assignment2/Index";
 
 const JSassignments = [
   {
@@ -124,7 +127,22 @@ const ReactHooksAssignments = [
   },
 ];
 
-function JSAssignmentsList() {
+const ComponentAchitectureAssignments = [
+  {
+    id: 1,
+    name: "Assignment 1",
+    path: "/component-architecture/assignment1",
+    component: ComponentArchitectureAssignment1App,
+  },
+  {
+    id: 2,
+    name: "Assignment 2",
+    path: "/component-architecture/assignment2",
+    component: ComponentArchitectureAssignment2App,
+  },
+];
+
+const JSAssignmentsList = () => {
   return (
     <div style={{ padding: 20 }}>
       <h2>JavaScript Foundations Assignments</h2>
@@ -137,9 +155,9 @@ function JSAssignmentsList() {
       </ul>
     </div>
   );
-}
+};
 
-function ReactBasicsAssignmentsList() {
+const ReactBasicsAssignmentsList = () => {
   return (
     <div style={{ padding: 20 }}>
       <h2>React Basics Assignments</h2>
@@ -152,9 +170,9 @@ function ReactBasicsAssignmentsList() {
       </ul>
     </div>
   );
-}
+};
 
-function ReactHooksAssignmentsList() {
+const ReactHooksAssignmentsList = () => {
   return (
     <div style={{ padding: 20 }}>
       <h2>React Hooks Assignments</h2>
@@ -167,8 +185,23 @@ function ReactHooksAssignmentsList() {
       </ul>
     </div>
   );
-}
-function Home() {
+};
+
+const ComponentAchitectureAssignmentsList = () => {
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>Component Architecture Assignments</h2>
+      <ul>
+        {ComponentAchitectureAssignments.map((assignment) => (
+          <li key={assignment.id}>
+            <Link to={assignment.path}>{assignment.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+const Home = () => {
   return (
     <>
       <h1>Fundamentals of React.js</h1>
@@ -177,13 +210,13 @@ function Home() {
         <JSAssignmentsList />
         <ReactBasicsAssignmentsList />
         <ReactHooksAssignmentsList />
-        <ReactHooksAssignmentsList />
+        <ComponentAchitectureAssignmentsList />
       </div>
     </>
   );
-}
+};
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -210,9 +243,16 @@ function App() {
             element={<assignment.component />}
           />
         ))}
+        {ComponentAchitectureAssignments.map((assignment) => (
+          <Route
+            key={assignment.id}
+            path={assignment.path}
+            element={<assignment.component />}
+          />
+        ))}
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
