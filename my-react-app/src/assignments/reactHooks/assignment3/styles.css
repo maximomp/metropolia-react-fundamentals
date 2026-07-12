@@ -1,0 +1,32 @@
+.lightTheme {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 12px;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.lightTheme h1 {
+  color: #0f172a;
+}
+
+.darkTheme {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 12px;
+  background: #0f172a;
+  color: #f8fafc;
+}
+.darkTheme h1 {
+  color: #f8fafc;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
