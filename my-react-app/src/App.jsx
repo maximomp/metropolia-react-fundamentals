@@ -26,6 +26,7 @@ import ComponentArchitectureAssignment4App from "./assignments/componentArchitec
 import ComponentArchitectureAssignment5App from "./assignments/componentArchitecture/assignment5/App";
 // Import Routing and Forms assignments
 import RoutingFormsAssignment1App from "./assignments/routingForms/assignment1/App";
+import RoutingFormsAssignment2App from "./assignments/routingForms/assignment2/App";
 
 const JSassignments = [
   {
@@ -171,6 +172,12 @@ const RoutingFormsAssignments = [
     name: "Assignment 1",
     path: "/routing-forms/assignment1",
     component: RoutingFormsAssignment1App,
+  },
+  {
+    id: 2,
+    name: "Assignment 2",
+    path: "/routing-forms/assignment2",
+    component: RoutingFormsAssignment2App,
   },
 ];
 
