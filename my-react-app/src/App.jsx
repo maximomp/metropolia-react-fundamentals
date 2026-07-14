@@ -21,7 +21,7 @@ import ReactHooksAssignment4App from "./assignments/reactHooks/assignment4/App";
 // Import Component Architecture assignments
 import ComponentArchitectureAssignment1App from "./assignments/componentArchitecture/assignment1/App";
 import ComponentArchitectureAssignment2App from "./assignments/componentArchitecture/assignment2/Index";
-
+import ComponentArchitectureAssignment3App from "./assignments/componentArchitecture/assignment3/App";
 const JSassignments = [
   {
     id: 1,
@@ -139,6 +139,12 @@ const ComponentAchitectureAssignments = [
     name: "Assignment 2",
     path: "/component-architecture/assignment2",
     component: ComponentArchitectureAssignment2App,
+  },
+  {
+    id: 3,
+    name: "Assignment 3",
+    path: "/component-architecture/assignment3",
+    component: ComponentArchitectureAssignment3App,
   },
 ];
 
