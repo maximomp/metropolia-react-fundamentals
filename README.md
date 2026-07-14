@@ -67,6 +67,12 @@ Component architecture
 - http://localhost:5173/component-architecture/assignment4
 - http://localhost:5173/component-architecture/assignment5
 
+Routing & Forms
+
+- http://localhost:5173/routing-forms/assignment1
+- http://localhost:5173/routing-forms/assignment2
+- http://localhost:5173/routing-forms/assignment3
+
 These routes are defined in:
 
 - my-react-app/src/App.jsx
@@ -178,3 +184,21 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 5
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/componentArchitecture/assignment5
+
+## Routing & Forms
+
+Routing & Forms assignments are integrated inside the React app at:
+
+- my-react-app/src/assignments/routingForms
+
+### Assignment 1
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/routingForms/assignment1
+
+### Assignment 2
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/routingForms/assignment2
+
+### Assignment 3
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/routingForms/assignment3

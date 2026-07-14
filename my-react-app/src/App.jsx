@@ -24,6 +24,9 @@ import ComponentArchitectureAssignment2App from "./assignments/componentArchitec
 import ComponentArchitectureAssignment3App from "./assignments/componentArchitecture/assignment3/App";
 import ComponentArchitectureAssignment4App from "./assignments/componentArchitecture/assignment4/App";
 import ComponentArchitectureAssignment5App from "./assignments/componentArchitecture/assignment5/App";
+// Import Routing and Forms assignments
+import RoutingFormsAssignment1App from "./assignments/routingForms/assignment1/App";
+
 const JSassignments = [
   {
     id: 1,
@@ -162,6 +165,15 @@ const ComponentAchitectureAssignments = [
   },
 ];
 
+const RoutingFormsAssignments = [
+  {
+    id: 1,
+    name: "Assignment 1",
+    path: "/routing-forms/assignment1",
+    component: RoutingFormsAssignment1App,
+  },
+];
+
 const JSAssignmentsList = () => {
   return (
     <div style={{ padding: 20 }}>
@@ -221,6 +233,21 @@ const ComponentAchitectureAssignmentsList = () => {
     </div>
   );
 };
+
+const RoutingFormsAssignmentsList = () => {
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>Routing and Forms Assignments</h2>
+      <ul>
+        {RoutingFormsAssignments.map((assignment) => (
+          <li key={assignment.id}>
+            <Link to={assignment.path}>{assignment.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 const Home = () => {
   return (
     <>
@@ -231,6 +258,7 @@ const Home = () => {
         <ReactBasicsAssignmentsList />
         <ReactHooksAssignmentsList />
         <ComponentAchitectureAssignmentsList />
+        <RoutingFormsAssignmentsList />
       </div>
     </>
   );
@@ -294,6 +322,18 @@ const App = () => {
           />
         ))}
         {ComponentAchitectureAssignments.map((assignment) => (
+          <Route
+            key={assignment.id}
+            path={assignment.path}
+            element={
+              <assignment.component
+                toggleDarkMode={toggleDarkMode}
+                darkMode={darkMode}
+              />
+            }
+          />
+        ))}
+        {RoutingFormsAssignments.map((assignment) => (
           <Route
             key={assignment.id}
             path={assignment.path}
