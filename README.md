@@ -65,6 +65,7 @@ Component architecture
 - http://localhost:5173/component-architecture/assignment2
 - http://localhost:5173/component-architecture/assignment3
 - http://localhost:5173/component-architecture/assignment4
+- http://localhost:5173/component-architecture/assignment5
 
 These routes are defined in:
 
@@ -173,3 +174,7 @@ https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app
 ### Assignment 4
 
 https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/componentArchitecture/assignment4
+
+### Assignment 5
+
+https://github.com/maximomp/metropolia-react-fundamentals/tree/main/my-react-app/src/assignments/componentArchitecture/assignment5

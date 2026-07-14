@@ -1,0 +1,60 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.itemPending {
+  background-color: #e0f2fe;
+  border-color: #7dd3fc;
+}
+
+.itemCompleted {
+  background-color: #dcfce7;
+  border-color: #86efac;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.completeButton,
+.deleteButton {
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.completeButton {
+  background-color: #16a34a;
+}
+
+.completeButton:hover {
+  background-color: #15803d;
+}
+
+.deleteButton {
+  background-color: #dc2626;
+}
+
+.deleteButton:hover {
+  background-color: #b91c1c;
+}

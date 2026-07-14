@@ -3,9 +3,10 @@ import "./styles.css";
 import { ThemeProvider } from "./ThemeContext";
 import ThemeDisplay from "./ThemeDisplay";
 
-const App = () => {
+const App = (props) => {
+  const { toggleDarkMode } = props;
   return (
-    <ThemeProvider>
+    <ThemeProvider toggleDarkMode={toggleDarkMode}>
       <ThemeDisplay />
     </ThemeProvider>
   );
