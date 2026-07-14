@@ -237,21 +237,19 @@ const Home = () => {
 };
 
 const App = () => {
-  // change -bg from #ffffff to #16171d in index.css to change the background color of the app
-  //create useState for dark mode and light mode and toggle the background color of the app based on the state
   const [darkMode, setDarkMode] = React.useState(true);
 
+  React.useEffect(() => {
+    const bg = darkMode ? "#16171d" : "#ffffff";
+    const text = darkMode ? "#f3f4f6" : "#1f2937";
+
+    document.documentElement.style.setProperty("--bg", bg);
+    document.body.style.backgroundColor = bg;
+    document.body.style.color = text;
+  }, [darkMode]);
+
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    if (!darkMode) {
-      document.documentElement.style.setProperty("--bg", "#16171d");
-      document.body.style.backgroundColor = "#16171d";
-      document.body.style.color = "#f3f4f6";
-    } else {
-      document.documentElement.style.setProperty("--bg", "#ffffff");
-      document.body.style.backgroundColor = "#ffffff";
-      document.body.style.color = "#1f2937";
-    }
+    setDarkMode((prevMode) => !prevMode);
   };
 
   return (
@@ -263,32 +261,52 @@ const App = () => {
           <Route
             key={assignment.id}
             path={assignment.path}
-            element={<assignment.component toggleDarkMode={toggleDarkMode} />}
+            element={
+              <assignment.component
+                toggleDarkMode={toggleDarkMode}
+                darkMode={darkMode}
+              />
+            }
           />
         ))}
         {ReactBasicsAssignments.map((assignment) => (
           <Route
             key={assignment.id}
             path={assignment.path}
-            element={<assignment.component toggleDarkMode={toggleDarkMode} />}
+            element={
+              <assignment.component
+                toggleDarkMode={toggleDarkMode}
+                darkMode={darkMode}
+              />
+            }
           />
         ))}
         {ReactHooksAssignments.map((assignment) => (
           <Route
             key={assignment.id}
             path={assignment.path}
-            element={<assignment.component toggleDarkMode={toggleDarkMode} />}
+            element={
+              <assignment.component
+                toggleDarkMode={toggleDarkMode}
+                darkMode={darkMode}
+              />
+            }
           />
         ))}
         {ComponentAchitectureAssignments.map((assignment) => (
           <Route
             key={assignment.id}
             path={assignment.path}
-            element={<assignment.component toggleDarkMode={toggleDarkMode} />}
+            element={
+              <assignment.component
+                toggleDarkMode={toggleDarkMode}
+                darkMode={darkMode}
+              />
+            }
           />
         ))}
       </Routes>
-      <p onClick={toggleDarkMode}>Toggle Dark Mode</p>
+      <p onClick={toggleDarkMode}>Toggle {darkMode ? "Light" : "Dark"} Mode</p>
     </BrowserRouter>
   );
 };

@@ -2,9 +2,10 @@ import React from "react";
 import TodoItem from "./TodoItem";
 import styles from "../styles/TodoList.module.css";
 
-const TodoList = ({ tasks, onRemoveTask, onToggleCompleted }) => {
+const TodoList = (props) => {
+  const { tasks, onRemoveTask, onToggleCompleted } = props;
   if (tasks.length === 0) {
-    return <p>No tasks yet. Add your first task.</p>;
+    return <p className={styles.noTasks}>No tasks yet. Add your first task.</p>;
   }
 
   return (

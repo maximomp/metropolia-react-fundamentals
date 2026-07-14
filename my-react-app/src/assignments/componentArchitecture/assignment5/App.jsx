@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import AddTask from "./components/AddTask";
-import TodoList from "./components/TodoList";
-import styles from "./styles.module.css";
+import AddTask from "../../../components/AddTask";
+import TodoList from "../../../components/TodoList";
+import styles from "../../../styles/componenetArchitectureassignment5.module.css";
 
-const App = () => {
+const App = (props) => {
+  const { darkMode } = props;
   const [tasks, setTasks] = useState([]);
 
   const addTask = (text) => {
