@@ -1,0 +1,64 @@
+.contactPage {
+  margin-top: 1rem;
+  border-radius: 18px;
+  min-height: 280px;
+  padding: 2rem;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  background: linear-gradient(145deg, #eff6ff, #bfdbfe 48%, #60a5fa);
+  color: #1e3a8a;
+  box-shadow: 0 20px 30px rgba(30, 64, 175, 0.16);
+}
+
+.pageTitle {
+  margin: 0.5rem 0 0.75rem;
+  font-size: clamp(1.8rem, 4vw, 2.3rem);
+}
+
+.pageText {
+  max-width: 100vw;
+  line-height: 1.55;
+  padding: 4rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.contactCard {
+  border-radius: 12px;
+  padding: 0.95rem;
+  background-color: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(30, 64, 175, 0.2);
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1rem;
+  color: #1e3a8a;
+}
+
+.cardText {
+  margin: 0.35rem 0 0;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.note {
+  margin: 0.9rem 0 0;
+  font-size: 0.92rem;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .contactPage {
+    padding: 1.25rem;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+}

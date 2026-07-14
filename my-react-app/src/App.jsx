@@ -27,6 +27,7 @@ import ComponentArchitectureAssignment5App from "./assignments/componentArchitec
 // Import Routing and Forms assignments
 import RoutingFormsAssignment1App from "./assignments/routingForms/assignment1/App";
 import RoutingFormsAssignment2App from "./assignments/routingForms/assignment2/App";
+import RoutingFormsAssignment3App from "./assignments/routingForms/assignment3/App";
 
 const JSassignments = [
   {
@@ -179,6 +180,12 @@ const RoutingFormsAssignments = [
     path: "/routing-forms/assignment2",
     component: RoutingFormsAssignment2App,
   },
+  {
+    id: 3,
+    name: "Assignment 3",
+    path: "/routing-forms/assignment3/*",
+    component: RoutingFormsAssignment3App,
+  },
 ];
 
 const JSAssignmentsList = () => {
@@ -248,7 +255,9 @@ const RoutingFormsAssignmentsList = () => {
       <ul>
         {RoutingFormsAssignments.map((assignment) => (
           <li key={assignment.id}>
-            <Link to={assignment.path}>{assignment.name}</Link>
+            <Link to={assignment.path.replace("/*", "")}>
+              {assignment.name}
+            </Link>
           </li>
         ))}
       </ul>
